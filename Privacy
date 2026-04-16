@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ghars غرس</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 20px; }
+        .highlight { background-color: #f1f8ff; border-left: 4px solid #0366d6; padding: 10px 15px; margin: 20px 0; border-radius: 0 4px 4px 0; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Ghars غرس</h1>
+    <p><strong>Last Updated:</strong> April 15, 2026</p>
+    <p>Thank you for using Ghars غرس ("we", "us", or "our"). This Privacy Policy explains how we gather, use, and protect your information when you use our mobile application. We built Ghars with a privacy-first mindset. Your habits, tasks, and goals belong entirely to you.</p>
+    <h2>1. Data Collection and Storage</h2>
+    <p>Ghars غرس is designed to function entirely offline by default. All your personal data—including habits, tasks, projects, categories, and completion history—is securely stored locally on your device's internal SQLite database.</p>
+    <p>We do not operate any proprietary cloud servers, nor do we host, collect, or monitor your personal data on our servers.</p>
+    <h2>2. Google Drive Integration (Cloud Sync)</h2>
+    <p>If you choose to enable Cloud Sync to back up your data or synchronize across devices, Ghars requires authorization to access your Google Account.</p>
+    
+    <div class="highlight">
+        <p><strong>Crucial Google Scope Disclosure:</strong> Ghars غرس specifically uses the highly restricted <code>https://www.googleapis.com/auth/drive.file</code> scope.</p>
+        <p><strong>What this means:</strong> We explicitly DO NOT have access to your personal Google Drive files, photos, or spreadsheets. Ghars can strictly only view, edit, or delete the specific "Progress Tracker" spreadsheet that the app itself creates to store your synchronization data.</p>
+    </div>
+    <ul>
+        <li><strong>What we sync:</strong> Only data strictly necessary for app functionality (Habits, Tasks, Projects data) is sent to the specific backup spreadsheet on your private Google Drive.</li>
+        <li><strong>How it is used:</strong> This data is solely used to populate the app and restore your personal history. We do not process, share, or analyze this synchronized data.</li>
+    </ul>
+    <h2>3. Subscriptions and Payments</h2>
+    <p>Ghars غرس offers premium features via an in-app subscription. All payment transactions and payment history are processed securely by the respective app stores (Apple App Store or Google Play Store).</p>
+    <p>We do not ask for, collect, store, or process your credit card numbers or raw billing information. We only receive an anonymous purchase receipt token to verify your premium access status.</p>
+    <h2>4. Data Sharing and Selling</h2>
+    <p><strong>We do not sell your personal data.</strong> Under no circumstances do we rent, distribute, or sell your habits, behavioral analytics, or email addresses to advertisers, data brokers, or any third parties.</p>
+    <h2>5. Deletion of Data</h2>
+    <p>Because your primary data lives on your local device, you can permanently delete all your data simply by uninstalling the application. Furthermore, you can manually delete the "Progress Tracker" file from your Google Drive at any time to sever the cloud backup.</p>
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: [Insert Developer Email Here].</p>
+</body>
+</html>
